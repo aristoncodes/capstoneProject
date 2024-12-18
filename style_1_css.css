@@ -1,0 +1,351 @@
+body{
+    min-height: 900px;
+    background:#000000;
+    padding-left: 48px;
+}
+.nav{
+    height: 40px;
+    width: 1400px;
+    border-bottom: 1px ;
+    padding-top: 16px;
+    padding-bottom: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom:1px solid rgba(255, 255, 255, 0.24);
+}
+.logo{
+    gap: 12px;
+}
+
+#steampunk{
+    width: 237px;
+    height:26px;
+    font-family:Sarpanch;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 42px;
+    letter-spacing: -4%;
+}
+
+.pagelinks{ 
+    position: relative;
+    left:450px;
+    margin: 10px;
+    height: 32px;
+    font-family: Rajdhani;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    text-decoration: none;
+}
+a:hover{
+    color: #9c9b9b;
+}
+a{
+    width: 65px;
+    height: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Rajdhani;
+}
+
+
+.container1{
+    padding-bottom: 48px;
+}
+
+.tagline_img{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    gap: 48px;
+}
+
+#tagline{
+    font-family: Rajdhani;
+    font-weight: 400;
+    font-size: 120px;
+    line-height: 120px;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #FFFFFF;
+    height: 240px;
+    width: 1344px;
+}
+
+#img1{
+    height: 672px;
+    width: 1344px;
+    border-top:1px solid rgba(255, 255, 255, 0);
+}
+
+.container2{
+    width: 1344px;
+    gap: 48px;
+    height: 680px;
+    border-bottom:1px solid rgba(255, 255, 255, 0.24);
+    
+}
+
+#proj{
+    width: 1344px;
+    height: 40px;
+    font-family: Rajdhani;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -1%;
+    color: #FFFFFF;
+}
+
+.service{
+    width: 1344px;
+    gap: 48px;
+    display: grid;
+    grid-template-columns: 420px 420px 420px;
+    align-items: center;
+}
+
+.serviceitem{
+    width: 560px;
+    gap:24px;
+}
+
+
+.imagebox{
+    height: 420px;
+    width: 416px;
+    border-top: 1px solid rgba(255, 255, 255, 0);
+}
+
+
+.textcontent{
+    width: 416px;
+    height: 56px;
+    padding-left: 12px;
+    padding-right: 12px;
+    gap:12px;
+}
+
+
+.text1{
+    width: 392px;
+    height: 24px;
+    font-family: rajdhani;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.text2{
+    width: 392px;
+    height: 20px;
+    font-family: rajdhani;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+.button{
+    width: 107px;
+    height: 36px;
+    padding: 25px 16px 8px 150px ;
+}
+.buttonview{
+    height: 36px;
+    width: 107px;
+    border-radius: 8px;
+    background:rgba(20, 87, 255, 1) ;
+    font-family: rajdhani;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.container3{
+    width: 1344px;
+    border-bottom: 1px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.portfolio{
+    width: 672px;
+    height: 312px;
+    font-family: rajdhani;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -1%;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.spacer{
+    width: 672px;
+    height: 312px;
+}
+
+
+.adi{
+    height: 312px;
+    padding-left: 200px;
+}
+
+.container4{
+    width: 1344px;
+    height: 700px;
+    padding-top: 200px;
+    padding-left: 472px;
+    gap: 48px;
+    align-content: center;
+}
+
+.main4{
+    width: 400px;
+    height: 276px;
+    gap:32px;
+    align-items: center;
+}
+
+.instruction{
+    height: 60px;
+    width: 400px;
+    gap:8px
+}
+
+
+
+.contactme{
+    font-family: rajdhani;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.cabout{
+    font-family: rajdhani;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -1%;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.inputcontainer{
+    height: 64px;
+    width: 600px;
+    gap:12px;
+    padding: 40px;
+}
+
+input[type="text"]{
+    height: 60px;
+    width: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    border-radius: 8px;
+    background: transparent;
+    font-family: rajdhani;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.64);
+    text-align: center;
+    margin: 4px;
+}
+
+.button2{
+    width: 400px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+}
+
+.submitbutton{
+    width: 400px;
+    height: 36px;
+    font-family: rajdhani;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    background: rgba(20, 87, 255, 1);
+}
+
+.skip{
+    width: 27px;
+    height: 20px;
+    font-family: rajdhani;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(90, 131, 237, 1);
+    padding-left:200px;
+    padding-top: 16px;
+}
+
+
+footer{
+    width: 1344px;
+    height: 168px;
+    border-top: 1px;
+    padding-top: 96px;
+    padding-bottom: 24px;
+    gap:24px;
+}
+
+.container5{
+    width: 1344px;
+    height: 48px;
+    display: grid;
+    grid-template-columns: 90% 10%;
+}
+
+.pagelinks1{
+    height: 32px;
+    width: 400px;
+    gap: 32px;
+    font-family: rajdhani;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: -1%;
+    color: rgba(255, 255, 255, 1);
+    
+    
+}
+
+
+.button3{
+    width: 143px;
+    height: 48px;
+    padding: 12px 24px 12px 24px;
+}
+
+.backbutton{
+    width: 143px;
+    height: 48px;
+    font-family: rajdhani;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    background: transparent;
+    border:1px solid rgba(255, 255, 255, 0.16);
+}
+
